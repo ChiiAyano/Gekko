@@ -1,0 +1,59 @@
+﻿body, td
+{
+	font-family: "メイリオ", "ＭＳ Ｐゴシック";
+	font-size: 14px;
+	background-color: #ffffff;
+}
+
+div.text
+{
+	left: 10px;
+}
+
+p {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	clear: both;
+}
+
+img {
+	background-color: #ccffff;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #3366ff;
+	padding: 1px;
+}
+
+
+h1 {
+	font-size: 16px;
+	font-weight: normal;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: #3366ff;
+	padding-left: 3px;
+	margin-bottom: 2px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #3366ff;
+}
+
+h2
+{
+	font-size: 14px;
+	font-weight: normal;
+	border-left-width: 3px;
+	border-left-style: solid;
+	border-left-color: #3366ff;
+	padding-left: 3px;
+	margin-bottom: 2px;
+}
+
+ul {
+	font-size: 14px;
+	margin-top: 10px;
+	margin-left: 20px;
+	padding-left: 1px;
+	margin-bottom: 10px;
+	list-style-type: disc;
+}

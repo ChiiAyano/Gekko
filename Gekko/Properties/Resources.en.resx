@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutFont" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="AccountSettingAltAName" xml:space="preserve">
+    <value>(None)</value>
+  </data>
+  <data name="AccountSettingTestConnecting" xml:space="preserve">
+    <value>Connecting...</value>
+  </data>
+  <data name="AccountSettingTestSucceeded" xml:space="preserve">
+    <value>Connected Successfully.</value>
+  </data>
+  <data name="AccountSettingVoidAccount" xml:space="preserve">
+    <value>Account Name is empty.</value>
+  </data>
+  <data name="AccountSettingVoidDomain" xml:space="preserve">
+    <value>Domain Name is empty.</value>
+  </data>
+  <data name="AcoountSettingVoidPassword" xml:space="preserve">
+    <value>Password is empty.</value>
+  </data>
+  <data name="BalloonPowerResumed" xml:space="preserve">
+    <value>Connection Resumed.</value>
+  </data>
+  <data name="FirstRunDialog" xml:space="preserve">
+    <value>Configuration file was not found.
+This file can be generated easily by using the configuration wizard.
+
+Press [Yes] to show the wizard, [No] to the basic configuration window.
+[Cancel] to exit.</value>
+  </data>
+  <data name="LogDeleteDialog" xml:space="preserve">
+    <value>You are about to delete all logs shown on the window.
+Are you sure?</value>
+  </data>
+  <data name="MailCheckCountBalloons" xml:space="preserve">
+    <value>{0} message(s) found</value>
+  </data>
+  <data name="MailCheckCountNotify" xml:space="preserve">
+    <value>{0} unread message(s) - </value>
+  </data>
+  <data name="MailCheckError" xml:space="preserve">
+    <value>  Connection Error: {0}</value>
+  </data>
+  <data name="MailCheckErrorCount" xml:space="preserve">
+    <value>An error has occurred on {0} account(s)</value>
+  </data>
+  <data name="MailCheckErrorCountNotify" xml:space="preserve">
+    <value>Error on {0} account(s) - </value>
+  </data>
+  <data name="MailChecking" xml:space="preserve">
+    <value>Checking new messages of {0} ...</value>
+  </data>
+  <data name="MailCheckMailCount" xml:space="preserve">
+    <value>{0}: {1} message(s)</value>
+  </data>
+  <data name="MailCheckNoUnread" xml:space="preserve">
+    <value>  No unread message was found.</value>
+  </data>
+  <data name="MailCheckUnreadCount" xml:space="preserve">
+    <value>  {0} unread message(s) was/were found.</value>
+  </data>
+  <data name="NotifyConnectMenuConnect" xml:space="preserve">
+    <value>Co&amp;nnect</value>
+  </data>
+  <data name="NotifyConnectMenuDisconnect" xml:space="preserve">
+    <value>Disco&amp;nnect</value>
+  </data>
+  <data name="NotifyOfficialSiteDialog" xml:space="preserve">
+    <value>You are about to go to the official website.
+Are you sure?</value>
+  </data>
+  <data name="RunNoAccountDialog" xml:space="preserve">
+    <value>There is no account configuration.
+If you do not configure any accounts, mail checking is not to be done.
+
+Press [OK] to begin basic configuration.</value>
+  </data>
+  <data name="SoftwareName" xml:space="preserve">
+    <value>GmailChecker - Gekko -</value>
+  </data>
+  <data name="StatusLatestMailCheck" xml:space="preserve">
+    <value>Last time checked: </value>
+  </data>
+  <data name="WriteLogConnectionResumed" xml:space="preserve">
+    <value>Resume connection.</value>
+  </data>
+  <data name="WriteLogConnectionStopped" xml:space="preserve">
+    <value>Abort connection.</value>
+  </data>
+  <data name="WriteLogPowerResumed" xml:space="preserve">
+    <value>Connection resumed.</value>
+  </data>
+  <data name="WriteLogPowerSuspention" xml:space="preserve">
+    <value>Abort connection because Windows is to be suspended.</value>
+  </data>
+  <data name="MessageListInboxRestore" xml:space="preserve">
+    <value>Restored</value>
+  </data>
+  <data name="MessageListMailAuthor" xml:space="preserve">
+    <value>Sender: </value>
+  </data>
+  <data name="MessageListSpamChecking" xml:space="preserve">
+    <value>Checking spam mails ...</value>
+  </data>
+  <data name="MessageListSpamError" xml:space="preserve">
+    <value>An error occured: </value>
+  </data>
+  <data name="MessageListSpamReceive" xml:space="preserve">
+    <value>Mail checking completed.  {0} letter(s)</value>
+  </data>
+  <data name="MessageListSpamReceiveOver" xml:space="preserve">
+    <value>Checking completed.  Listing {1} of all {0} mails.</value>
+  </data>
+  <data name="MessageListToolTip" xml:space="preserve">
+    <value>Received: </value>
+  </data>
+  <data name="BrowserRunError" xml:space="preserve">
+    <value>Could not send information to browser.</value>
+  </data>
+  <data name="ExceptionManagerApplicationExceptionHint" xml:space="preserve">
+    <value>Exception Handling Test. If you see this message except debugging, please contact the author.</value>
+  </data>
+  <data name="ExceptionManagerClipboard" xml:space="preserve">
+    <value>Copied to clipboard.</value>
+  </data>
+  <data name="ExceptionManagerDefaultHint" xml:space="preserve">
+    <value>See exception description of stack tracing.</value>
+  </data>
+  <data name="ExceptionManagerGeneralStacktrace" xml:space="preserve">
+    <value>Exception: {0}
+---------------Description
+{1}
+---------------Stack Tracing
+{2}</value>
+  </data>
+  <data name="ExceptionManagerMessage" xml:space="preserve">
+    <value> above has occurred. Application terminated. Please send the information below to the author.</value>
+  </data>
+  <data name="ExceptionManagerStacktraceEnd" xml:space="preserve">
+    <value>---------------Information
+Software Version : {0}
+Windows OS: {1} ({2})</value>
+  </data>
+  <data name="ExceptionManagerWebExceptionHint" xml:space="preserve">
+    <value>Some problems occurred on network configurations. Check your network again.</value>
+  </data>
+  <data name="SettingAccountDelete" xml:space="preserve">
+    <value>Are you sure to delete the selected account?</value>
+  </data>
+  <data name="SettingMessageListFontInfo" xml:space="preserve">
+    <value>Font name: {0}
+Font size: {1}</value>
+  </data>
+  <data name="SettingMessageListPreviewDetail" xml:space="preserve">
+    <value>Gekko checks new/unread messages on Gmail to notify and open the message instantly. This program runs in residence.</value>
+  </data>
+  <data name="SettingMessageListPreviewSender" xml:space="preserve">
+    <value>Sender: Gekko user</value>
+  </data>
+  <data name="SettingMessageListPreviewTitle" xml:space="preserve">
+    <value>Gekko Message List Preview</value>
+  </data>
+  <data name="SettingNoAccountError" xml:space="preserve">
+    <value>No account setting.
+Set one account at least.</value>
+  </data>
+  <data name="SettingsMessageListDefaultFont" xml:space="preserve">
+    <value>Segoe UI</value>
+  </data>
+  <data name="SettingStartupAlreadyRegisted" xml:space="preserve">
+    <value>Already registered on startup.</value>
+  </data>
+  <data name="SettingStartupGmailChecker" xml:space="preserve">
+    <value>GmailChecker entry was fount on startup.
+Do you want to delete it and register again?
+
+[Yes] to delete &amp; register, [No] to register only, [Cancel] to abort.</value>
+  </data>
+  <data name="SettingStartupRegested" xml:space="preserve">
+    <value>Registered on startup.</value>
+  </data>
+  <data name="SettingStartupRegistConfirm" xml:space="preserve">
+    <value>Do you want to register Gekko on startup?</value>
+  </data>
+  <data name="SettingStartupRegistError" xml:space="preserve">
+    <value>Could not register on startup.</value>
+  </data>
+  <data name="SettingStartupRestoreConfirm" xml:space="preserve">
+    <value>Do you want to remove Gekko from startup?</value>
+  </data>
+  <data name="SettingStartupRestored" xml:space="preserve">
+    <value>Removed from startup.</value>
+  </data>
+  <data name="SettingStartupRestoreError" xml:space="preserve">
+    <value>No Gekko shortcut on startup.</value>
+  </data>
+  <data name="SettingFontNotAvailableRegular" xml:space="preserve">
+    <value>The selected font is not available.</value>
+  </data>
+  <data name="MessageListToolTipTime" xml:space="preserve">
+    <value>yyyy/MM/dd HH:mm:ss</value>
+  </data>
+  <data name="NotifyPause" xml:space="preserve">
+    <value>Aborting - {0}</value>
+  </data>
+  <data name="VersionUpCheckError" xml:space="preserve">
+    <value>The error occurred while confirming the upgrade. 
+{0}:
+{1}</value>
+  </data>
+  <data name="VersionUpCompleted" xml:space="preserve">
+    <value>Download was completed. 
+Is {0} ended, and updated?</value>
+  </data>
+  <data name="VersionUpError" xml:space="preserve">
+    <value>The error occurred while executing download.
+{0}:
+{1}</value>
+  </data>
+  <data name="VersionUpNotNewVersion" xml:space="preserve">
+    <value>This version is the latest.</value>
+  </data>
+  <data name="VersionUpRunException" xml:space="preserve">
+    <value>The error occurred while starting updater.
+{0}</value>
+  </data>
+  <data name="WizardCompleteButton" xml:space="preserve">
+    <value>Finish</value>
+  </data>
+  <data name="WizardFifthTitle" xml:space="preserve">
+    <value>Gekko can play a short WAV file when indicating the arrival of new messages.</value>
+  </data>
+  <data name="WizardForthTitle" xml:space="preserve">
+    <value>Specify how Gekko indicates the arrival of new messages.</value>
+  </data>
+  <data name="WizardNextButton" xml:space="preserve">
+    <value>&amp;Next &gt;</value>
+  </data>
+  <data name="WizardSecondTitle" xml:space="preserve">
+    <value>Enter the account you want Gekko to check out.</value>
+  </data>
+  <data name="WizardThirdTitle" xml:space="preserve">
+    <value>Specify the mail-checking interval.</value>
+  </data>
+  <data name="AccountListDisable" xml:space="preserve">
+    <value>Dis&amp;able</value>
+  </data>
+  <data name="AccountListEnable" xml:space="preserve">
+    <value>En&amp;able</value>
+  </data>
+  <data name="SoftwareNameShort" xml:space="preserve">
+    <value>Gekko</value>
+  </data>
+</root>

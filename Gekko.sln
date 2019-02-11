@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageList", "MessageList\MessageList.csproj", "{2E0A3901-1D41-4310-9782-3E5EA113D02A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gekko", "Gekko\Gekko.csproj", "{21409620-BF6D-41E3-ABFA-45A60A09E506}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{315000DB-0EC2-4BBF-BD68-60C9E70E480A}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.md = Readme.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E0A3901-1D41-4310-9782-3E5EA113D02A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E0A3901-1D41-4310-9782-3E5EA113D02A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E0A3901-1D41-4310-9782-3E5EA113D02A}.Debug|x86.ActiveCfg = Debug|x86
+		{2E0A3901-1D41-4310-9782-3E5EA113D02A}.Debug|x86.Build.0 = Debug|x86
+		{2E0A3901-1D41-4310-9782-3E5EA113D02A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E0A3901-1D41-4310-9782-3E5EA113D02A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E0A3901-1D41-4310-9782-3E5EA113D02A}.Release|x86.ActiveCfg = Release|x86
+		{2E0A3901-1D41-4310-9782-3E5EA113D02A}.Release|x86.Build.0 = Release|x86
+		{21409620-BF6D-41E3-ABFA-45A60A09E506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21409620-BF6D-41E3-ABFA-45A60A09E506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21409620-BF6D-41E3-ABFA-45A60A09E506}.Debug|x86.ActiveCfg = Debug|x86
+		{21409620-BF6D-41E3-ABFA-45A60A09E506}.Debug|x86.Build.0 = Debug|x86
+		{21409620-BF6D-41E3-ABFA-45A60A09E506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21409620-BF6D-41E3-ABFA-45A60A09E506}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21409620-BF6D-41E3-ABFA-45A60A09E506}.Release|x86.ActiveCfg = Release|x86
+		{21409620-BF6D-41E3-ABFA-45A60A09E506}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03111BBB-3FB9-4780-BCBB-E79AAC1A5557}
+	EndGlobalSection
+EndGlobal

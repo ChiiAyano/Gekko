@@ -1,0 +1,1255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="logMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>367, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="logMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>156, 104</value>
+  </data>
+  <data name="&gt;&gt;logMenu.Name" xml:space="preserve">
+    <value>logMenu</value>
+  </data>
+  <data name="&gt;&gt;logMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="logCopyMenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJnSURBVDhPddLNT9NwHAbwHtX4J+mFiK+JMYwNb56M
+        MVEvusMSX9C5sSsSOanx7MVEuSBGgwy7tB1sghIofCVjsBdexlY2XNv18WmNFy2HJ78m6/fZ9/dJlXMJ
+        9U00bcwNZQyJZXQzljHMoRHdvJLUCn2J7J1TN94dA6AcFWUwpRX4YNasntSZasuVjYYtlZYtmam6RFPz
+        L07fnDjx7+DfKLG0vrLb9mRWXFHXHfmy2pWJhbZYXU+yJVvGpnfk/IOZ4bBhP0o0rZv7HU/yJVfyG67k
+        ftrycflQ1mpt2bZssX45cv15fjVs2E9Q0Dz05NumK8WyK0bJkexaV17O1DH+eQvPpspBbr0utm+/KnSu
+        jRsrtHlIm+NBwSALWoeQ7xUvSHGzJ9q6LeOfNuHxDdqANqANaAPagDagzXvanFQiKV4hKID8qPRkcasn
+        BW4yxn+lDWgD2oA2oA1oA9qANqDNmDLwVOMVIMs1iFn/cy6xzF+bNqANaAPagDagDWgD2iCS1DxlIGmY
+        e20ntIA2oA1oA9qANpha6uBt0UKZ17k6YnhK5Mm8VJqN/wpGWUAb0CUIbUAbZKUbbFJp9TDkF1y+n1vY
+        sVypNvnx7NtSazpSbzky+oFXCAoA2oA2oA30Dd/DRtXyEEuz4GJCnbyUyM31x3Nr/XF1kSejLtKGVwC4
+        EbhZcHIzXgnQSwh+i6Z0L/Tj8EMbhzZHFjQ6DqJJbhA27Ic2oM2RBdVWA7HHc+HDfi4k1F3agDagDWgD
+        2gTZZvYOehgc1rqhw3767s5O98e/btHEo4nFk/FP1Tobzx2cuTdbjTzSmr8B1uo6cuIIh6sAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="logCopyMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="logCopyMenu.Text" xml:space="preserve">
+    <value>コピー(&amp;C)</value>
+  </data>
+  <data name="logAllSelectMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="logAllSelectMenu.Text" xml:space="preserve">
+    <value>すべて選択(&amp;A)</value>
+  </data>
+  <data name="toolStripSeparator7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 6</value>
+  </data>
+  <data name="logDeleteMenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJpSURBVDhPpZP7S1NhGMf9W/SHKEGiGyFhFBTmvMyd
+        tTa3eTvL9LjFIpam7AzTDGoYuvCHcJbaVSt/yTSxUV4ycnYdWh4rL+3URq3pObumfNsmbS5HEL3weeE8
+        PJ/vy3nOeZMA/BcbCgsaTco8Van/QJUzsyqSm1GVcO9JJTNFyvW2UmnKn/1xD4tqDfGJotjvpib4RywI
+        vLUiMDEK/n43FrRleF1IsC+UQmK9EyfPVVD88t1urM6+Q3DwHoJdzQiaL+Dn7TasjA/CUauFVZ7NP5dm
+        RkMi27xanRyS7dzNLqwyNgQvn4O72YClphr4LxkQaKHhN56C/8EtLB4nMX7kgH1Msi85GhCSaWe9Hiu2
+        yciJPhMN13kdvA3qOLjTJPy91/AqLwPD4gw6GvCROsZ4eq8j2GOG21iFb0XihCxXkeCb6uAwVOMxkc5E
+        A5gKlTfwsBdBkwHus9pQKfFyyHLgogqxZG6FJW+XN1RaC5ghi7y+ng74G7XwnimPNCda4QBnmQJLba0Y
+        Em6LBUyXKhiXsQ6+ZhrcSWWkMSHyPLjra7FQq8OgIC32CrZiKc1IBPD2dMKtksBVJtogs9JssAUieLqu
+        YFS4AwNZW2JDfFMkTn5ZQtgXK0vgudMRGZhTIVwTZblgJSFZIgTf2Y6pYnFYtvcJNsc+Y5jJghxiQnaI
+        nzuqgOdGB3400nCQcnxRyuBq0IO/2o5pZT76s1L5kBz/I/3mmfQg8fTwftYq2oOvNTq4Wi5G+Fx9Ak9y
+        todldr0cJi4gzIh4b8qwMF1vIXYzj/J3ckOCrdxAbhrTn52q78vc9PfL9O8g6Rcd0s65aUjWSwAAAABJ
+        RU5ErkJggg==
+</value>
+  </data>
+  <data name="logDeleteMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="logDeleteMenu.Text" xml:space="preserve">
+    <value>ログの消去(&amp;D)</value>
+  </data>
+  <data name="toolStripSeparator13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 6</value>
+  </data>
+  <data name="logFontMenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHtSURBVDhPY/j//z9FGKsgKRirIAg7tN9wcO6+0erZ
+        d2uKc+fNfoeWGxMcW27Msiq+3GWUdIZXL/okI0gdVs0gbNd8PThn+aN7E/e8/N+/6/n/7u3P/xcuefTb
+        qe7aNv2Y01wwdRgaYdi69ppM2LS7u4pXPv5UvOLh18IlD7/blV+eYRB/mgNZHYomZGxTeaW8YNmj7+4d
+        t9Y6111b0LTuyX+r3PMz0dWhcGDYovCiUvLse4/ipt25b5p5PgSIG2pWPvpvlXNxKbpaFA4Im2ZdYHZq
+        uL4qa/797yZpZ9P0Y09yGSee6ahc9vC/S9XVS+peh9iQ1aNoBmGzrPMxGXPvfwvqvnXRMP60n17kcS3z
+        9LMLqoAGBLfd+KTqtp8XWT2cAcJGyWdE4ybfflW5/NF/r+Ybl62yzm+yzDi31bXq6o3GFY//h7Xd/Kns
+        uE8aWQ+cYRB7mtG+5PJskF/N086gBJZ58pmN5Qvu/4/qvPVfyW63ErIcmNCPOcUFjB6X0iUP/0f03Hqj
+        E3TMFqZAxXW/sLrH4frsaXf+J/Tf/q9ovzdEzmIbE4oBFhnn1sX23/qXMOH2/4Dm62+1A470KjvtFVCy
+        36Ol7Xt4kVPhhVeBddf++9Zc/W8YemyvrOU2QxQDKMFYBUnBWAWJx/8ZACVPr6ZqO+X+AAAAAElFTkSu
+        QmCC
+</value>
+  </data>
+  <data name="logFontMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>155, 22</value>
+  </data>
+  <data name="logFontMenu.Text" xml:space="preserve">
+    <value>フォントの変更(&amp;F)</value>
+  </data>
+  <metadata name="statusStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 290</value>
+  </metadata>
+  <data name="statusStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 293</value>
+  </data>
+  <data name="statusStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 24</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="statusStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="statusStrip1.Text" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Name" xml:space="preserve">
+    <value>statusStrip1</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.StatusStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;statusStrip1.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="latestCheckTimeStatus.Size" type="System.Drawing.Size, System.Drawing">
+    <value>443, 19</value>
+  </data>
+  <data name="latestCheckTimeStatus.Text" xml:space="preserve">
+    <value>最終チェック時間: 2009/01/01 00:00:00</value>
+  </data>
+  <data name="latestCheckTimeStatus.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 0</value>
+  </metadata>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 24</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="mainMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 20</value>
+  </data>
+  <data name="mainMenu.Text" xml:space="preserve">
+    <value>メイン(&amp;M)</value>
+  </data>
+  <data name="mainSettingMenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJZSURBVDhPpZLtS1NhGMbPf9D36FOBXyT62sdeIDKCNjKQ
+        JA0WEmm+snRHCkSGmhhmU9vSkJzJzARDbRFTcyubStOpc+pS03bOxHnOztzZyda4es7ZIbKCsC74cT9v
+        9/Xc3M9D/be0xbb8hueBWGV3APRTgnUJhid+3OqYh/7xHMravSi1eFBs/oCilkkUmNygW1wxOU8xMPb6
+        k02vQtgvNxpHkoqBfPO/kFc/CsWAti4jHo/vG12NI2Vg6FyEKIqIKcQQixHI2Ol0/saUwwR/VxaW+42Y
+        bj+D6eb0HEpuWDQaRVa19wc7ZC4n/CyR6Qc7XI6IdwDYCYL39mLs7tkQJXc7IggQIgQhokZhj4HIDILz
+        VWF34wXY0XrEZ/vwbc0FjyVPouSn4jgePM8rUYHnSOTIGoetFZI8dxvJuAvxjwXYnriJhU4d3GbCA00a
+        VdY2g3A4jC0VeRzeCisVTDiawc0akJTGIQZyIa1nI+qjsdahQeGdtlQTi1qnsLm5uacH8nykrw7sZLma
+        nAPp02UIc5VYsZwHu+BCpr43ZVBomgDLsoSQGlksvLPCZ9eTsscgrerwZf0KIqSSgPkcvgqMcuZiWU/K
+        oKDpPYJBhhAEQ3APtmJ+iMbMy0Z8dl+CuJqN7ekKLD+6gI1FDxhGPsdAW2pLGWhLum3X7zmVn3Wtdhg9
+        daeB6Br8lkwM0wfx9mEGhqpOIN9gJmU/IzfboC2R6bYpBr+q+mpaYnfchF33fbiNJ9GVe2jHXp5+TN3+
+        uzTHD0g1uUcS9tqMxOuGU28GKo4eVrf+IIr6DumBl6OrjLdiAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="mainSettingMenu.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+S</value>
+  </data>
+  <data name="mainSettingMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 22</value>
+  </data>
+  <data name="mainSettingMenu.Text" xml:space="preserve">
+    <value>基本設定(&amp;S)</value>
+  </data>
+  <data name="toolStripSeparator1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 6</value>
+  </data>
+  <data name="mainConnectMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 22</value>
+  </data>
+  <data name="mainConnectMenu.Text" xml:space="preserve">
+    <value>接続(&amp;C)</value>
+  </data>
+  <data name="mainConnectStartMenu.Enabled" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="mainConnectStartMenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAKjSURBVDhPlZLbT9JxGMa58Ma/oDsuO5hr2XLJVirT
+        lbpF1kVMN+cyZ+piiBk6xUgTEmH8FCEJFRRInKCAyjTxgHnIA6HOM1qWCa3WtVtie/r9aLjR8KKLz/fq
+        eZ697/N9aQD+C1HPbqKgcy1Qolk+LGhaSIsoCtHp+hnV5vxGVzp8DGnfHqvGtK2sNW1BatlEnWkV90WT
+        hxGNFLrxH9HqYf9s8+BXyO17kJi9kPV6oXbsotG6ibJWN1Irho4imilUDh+/feQA5mk/jOP7aHv7Cc39
+        2xAaViDqWsFdoROJxX1JEc1q585Z8cDMbwNp1AztQdy9jurOZTzRLOK53oM86QSuF5pVlDbMSI2tGfZb
+        Ff0jv2pnylFjc0Bh2wLRtwluyzwKiCnwW+eQwbPjWraeFRagHfse1TLk8+qcB6AQdXUcCyf5yCZsx9xX
+        71GlXUSWaBSPFVNIetiFuEwNIyxAMeijE/bPf3ee2Ie8dws8ZfcRu8FcnlZhPM6pc6KIcOFBwyji77Uh
+        NrWJHhZQ3/uRITHvQD/2BS97NqAc2EalzoNciSogGOXgJrcZd57awMwz4mIK4T3PlEaFBQj0G6xnhrXg
+        N1GFlWnceGFcAl8zh3xZNSqHixGfKQvEMOXWc8n10SHfSQBH7bGLu1cht2yAp55HYeM0chsm8Ih4h3yy
+        9VuFwsAVlvhCSB8i+BQp3aX8dg9klnWy5UUIOtzBtrmqmeDeaRwL4m6r+f+aKWjkPfN4r92oMSwHR67S
+        LiCHbDudZ0VyvgkJbC0uZ7TMxqYQJ2OHBWTVT6Fav0QeyAcUyFxIL7UhIeeN6ipbx4rLVDMupSvpMSlE
+        sLBI0DKqRsimXciTkHtyrNSBMCMJT4PGLLGfuVFkBiPXdBjP1iVFEp0OaH8AyBm6QsVtvJUAAAAASUVO
+        RK5CYII=
+</value>
+  </data>
+  <data name="mainConnectStartMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 22</value>
+  </data>
+  <data name="mainConnectStartMenu.Text" xml:space="preserve">
+    <value>再開(&amp;S)</value>
+  </data>
+  <data name="mainConnectPauseMenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALISURBVDhPfZJbTFJxHMfZcm6++tQTb61aLVfpkoaX
+        lrVpxbIyzSHaxWs2xZg51C6SgoqdEkkw5EzFW+TRTMQEEYehzWu1JpIt07w1W72kRQ/fzjkbPRj18Plv
+        Zzuf//f8vr/DAfBfHju/+Rkc61z9wBpPbVoSVFIfJHdaZz35+jfmzJpxf5+Sl9bhrwENtnVnvWUFtb2f
+        UN09D4JyQ2Oag5ScQnyZw+xT9EKn5hvsq+gaXUO7YwmNAx+h7Z1DhfEtSgzTiMo3eXyKDHV9y/7E04XN
+        tqEVkP3zqHziQknza9yon8TdllcQltkQltkh8Sl7oWctVRhnUdPtRnWXC3naMWTcH0aBbhQxed04lNgo
+        +EtqsNOF6fU6rVZLMs+pxEgRPetmTu1LFJFjuFBqxdVqB8Ivt2D/KQ3vj9js+BJA2j531nVO/jCbzbBa
+        rVAqlewl9Kz8yGvUhlBmQTphR0qFBQdPa7HnKMH1pvrpLCvuJrqwpsElVNSbflEUBZlMRkql0m1isTiQ
+        l9zKD44nN07mdSAiuRG7j9xz74xQ+LEXaPqWuaqeRXQ4V9FiXwTR9Q7iqp6fSYqhcFom09PTXSKRaHtQ
+        jJpPp37fdaSyc0d4WQDjshcoqXmeknoPg20B5UYXap7NsntOKGjyqFQqtLe3Iy4uziUQCALpVC7jeGGP
+        W80zgpKWGXbHxQ3TuF43Ru95ChLtCBKyyyGXy0HLbB9bYY9czaSkiBYJagZM22mEA0LFAK4o7biosIIf
+        K/OEnihmP3krnCz1hH+K0umR0T9HITmOQv0Ym5xNryq1yoZjmW3YF12T70tm4CQqhj0Z1U7cbpxA7sMX
+        OFvYi+NZRoSJmhByRoe9UQ+cdOM+0xk4MUX9ZqF8EOdvPsfhS62ekHhSciD2kSAoWs1j9kw37udL9MKJ
+        zOkK4KcZzaFJBk/wOb2/r5f+DTi/AcFGp9AV5agvAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="mainConnectPauseMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>137, 22</value>
+  </data>
+  <data name="mainConnectPauseMenu.Text" xml:space="preserve">
+    <value>一時停止(&amp;P)</value>
+  </data>
+  <data name="toolStripSeparator2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 6</value>
+  </data>
+  <data name="mainHideMenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAIhSURBVDhPpZPvS1NRGMfP/1MvJIhehBDRu96YW2k6
+        zGFl6GiutWLrB1SOxFFMEW0jZ9iwbHuxYhX2iyKLluHQTPplryJFLfVud/f3vp3n5I2EKKwHPvc5PPc5
+        n3vuOfcyAP8F2+Ubbr1wc6Z44tpHhIY4yfcIDr7FsStvEEhMwd8/iSPxPNpi4/D2jsHTk0MoPlqkeUIQ
+        Ts9Y3SNzWC/e6BNLCOjJ/8LByGM+nwtCyQ80WHc0nX9IibHg1XeioBkmVI6iGSgqBiRFx7Ks4WtBwfxS
+        CbMLMj7PF/BpVhL9jeF7lLiAbxiFblnQTVOISroBWf0hWikZ+FZUsSBx0bKCucWS6G84c5cSY7TbFCYX
+        GCThaFykcJFMq+GiAq1INrBU0LEoqaLfdfo2JcboqCjMclkIbJHGUUnEJbZIWhVR1J28RYkx/+UJUSCB
+        DQns1agcz4NGNN9xwZ2pget6teivDWUoMebteyUKJocO9qeEI/aFcyBbj6Hpfgy+jsGR2Cn6nYE0JcYO
+        97wUBYoyhyTWqsSmIeXEwGQvYvku1A84MP1lCg7/DZrCmKf7BQ1+G5Fn7XCnauDPtqBvPIqusU60ZVqw
+        vX0rKo+LVxH/wvChi0/Fl7W/4xHc4fvYd26E73IWdacycMb2ojXdhGiuA53Pz6I2Xo0tgW2o8iVTQkCX
+        v7EjUjnhSuzGnktV2HR0Y/7Xe2sa/8TmYEWuwrdhdG0d7DsTED0yEzqUkwAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="mainHideMenu.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+Z</value>
+  </data>
+  <data name="mainHideMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 22</value>
+  </data>
+  <data name="mainHideMenu.Text" xml:space="preserve">
+    <value>メインコンソールを隠す(&amp;H)</value>
+  </data>
+  <data name="toolStripSeparator8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 6</value>
+  </data>
+  <data name="mainExitMenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALgSURBVDhPXZFdSFNhHMZfEz8m0kYapBdKCmMOEZSZ
+        qJPpPlDStQ1FUZGmaUvU6SJ0S7RDY0jI2hIEoRAiIoPK6ENTEpdCBOGF1LxJuwqEZBeG5r7c0/se2GZe
+        PJzDOe/ze57//yUAYgr9fJBIJTz5LfKJnGPP4xViDC+Tc6FFIgy+I4Lo/5PmIqpdqtXQjmuaShnacZ45
+        XiXy449kLrxE1kMLxBl4SzxRz2nAJNVaaMcd3N9y/d7bdB4Ev13D8mz9YXApIRL5UoPwBwn88+Tz0Qty
+        /XCOXDwN6Axsu/0byxNH952TWHw1g4PvHPyePES+qoA1LfBageDT8zh8RvqjvhhgZtpp3t24h8C2C7Zb
+        JvT39+PNo6v4+16A8IoEWFADTy4hMCvCj+mUrT+z5EIMYLfbZVar9dfd8ZvY25yEnbOipKQEDocD9nEL
+        Dl4m4uB5AvyPz2LdJUZRUZG3oKBAFgOMjY1xU1NT0Ov1GBkZQUdHB/Lz89HX14eHjkbMjGuw6szDhFmO
+        +TtSNOouIzc3l4sBqMnDAD09PXyyRCKByWSCzWbDwMAAOjs7cfuGGgb9FWi1WjQ1NSErK4u/DR4wODjo
+        c7vdoE14jY6OYnh4GGazGV1dXWhtbYVOp0NdXR3UajUPyMzM9MUA3d3dPo7jYLFYQGH8AlkDo9GIlpYW
+        3lxbW4uamhpUVVWhvr4eIpEoDmhvb/cMDQ2ht7eXr8t20NbWxic1NDRAo9FAoVCgvLwclZWVPCQ9PT0+
+        Ak3gmJHVbW5uhsFg4GdllZVKJW8oKyuDTCaDXC6HVCqFQCCIL7G6ulpGyV4GYKnMqFKp+NSKigqUlpai
+        uLiYhzAANXtTUlLi18hED5gKCwv3WQNWm83LKjMzE3tnMGreT05ONkV9MQATvXtTTk6Olx1kc7PFsRFY
+        slgsBk31JiUlxcxM/wGYsrOzZRkZGZxQKPTQRfnS0tJ8qampHprKUTNfOy6Qf9FeQF9xj6ASAAAAAElF
+        TkSuQmCC
+</value>
+  </data>
+  <data name="mainExitMenu.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+X</value>
+  </data>
+  <data name="mainExitMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>229, 22</value>
+  </data>
+  <data name="mainExitMenu.Text" xml:space="preserve">
+    <value>終了(&amp;X)</value>
+  </data>
+  <data name="messageMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 20</value>
+  </data>
+  <data name="messageMenu.Text" xml:space="preserve">
+    <value>メッセージ(&amp;E)</value>
+  </data>
+  <data name="messageCheck.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAK5SURBVDhPxZJdSNNRGMZPGHXRRVdBIGhBRNqVXaSYkaSY
+        0JcifZCZpGSSmBIimMZM0/ycE2ozAm0NqZRKMy1D0E2d32YlWmmaTp3uQzfn3P777/yfztaIpBvveuCB
+        w3vO83vPyznk/yvnUW+7SD5qSpGN8PEVPTRO3ENjxWp6saybni/tojElnTS6SEXPFCrpyXsdNFLU5Tyd
+        r7SFZzVq/KLL24m4fmzSYrULZqsTnBMb7PjLvMsUcDJb1nnM6yw0LKN+gmRXDQurrCB9q8HkIodlq4Dv
+        SxSTOoopA8WMkWJuRYDWLGDdAfzUcSiom8W3OTOi7ncKJF06Ao6hG4fMkDZrMLXEwWwTNgR1FgE2FtYY
+        OJS8msXDNhMMa3ZElfWCJIkH3YAv8xRvBn9DXF2sHNxB45rA9oF5I4fyBg2qlSa8G3fCaPEAYgv73IDx
+        RYrRBYp6tRHFdZPubq6ga/6FZQ6pinBcqwlAx4TT7T+AqDvdbsBXNvfIDIemfj2edRtQ1aLBD60NU4s2
+        yNg6+Wko7jZdwoWqA1BPewDlDBCRqYKdAT5rOLR+NDCIHWNairTao7ipCEay/DASqg8h5/U51A1UIqP+
+        LE5IvKFftbEb9IGEpLUKVvZmbSMGjM1xmDYImNYLSFEEomFYipdDD9zB5wMSSNoyIO8pQXJtBIKKdyCq
+        UCmQgDjF1NKyhU5rTYLJyrMX4GFhTmTzusLiD2kofp+CgpYk5DZdRV7zdVSp8nH5SQj2i7wE4vpNAYkN
+        K0HpLY7AW618aKaSP56l4mMf++FFvwS1veWQq0tQ3V3EIDcgU+UhqTYSe3J2O/xjCpSeD/2vTsn20vBK
+        b3qsYhc9UrqTXqkJhlSZiwRFBHxyyKd9qWS75+jmdDB/iz5eHgbf22TQX0S2ecqbl28W0ftke4GIyFZP
+        iYmQX3O0R2A/be6PAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="messageCheck.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+C</value>
+  </data>
+  <data name="messageCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 22</value>
+  </data>
+  <data name="messageCheck.Text" xml:space="preserve">
+    <value>メールチェック(&amp;C)</value>
+  </data>
+  <data name="messageListMenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGXSURBVDhPxZJbSwJRFIX9eb1aURLRhSKiJG8UaBFESEEU
+        IWKYmWmDOuWIDomMopMY2o2iKLDyB/QDfNNxNWefipAIrIcWLAYW+3xrzp4x/FlGqzi7KdUbi7E6XFHd
+        wjOckRoWDh4xv/8AR/Ae9t1bWP03sPiuYPZewOU7a7BzBHAnappHeUW3ntlWNQKw5t94auMUBHAJL/iN
+        JtYKHOA8fKJgWqUHqtUqKpUKyuUySqUSVFVFoVBAPp+HoihkpjF37h2gL+wntdvtT2uaRmYaWclyANs2
+        BRxMrcViEblcDtlsFplMBrIsI5VKIZlMQpIkmhteznAA+1Sd+q71w61Wi2aGlmQOcOzdUdAr84Psjqw1
+        nU5TmyiKiEajEAQBkUgE4XCY5k2uFAdYdq4p6GxjTV/dbDY/zdQ/n+CAOe8lBT0J0EF2X9Ycj8epNRQK
+        IRgMIhAIwO/3k5n6HEccYPacU9CtjHaRA4y2mDi9VaY/a3K9iHF3HqOrir7lE1qUaTGNQWcSAwuS/trH
+        erMIo405JhLgn2UwvAHl3ofYxbW6egAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="messageListMenu.ShortcutKeys" type="System.Windows.Forms.Keys, System.Windows.Forms">
+    <value>Alt+L</value>
+  </data>
+  <data name="messageListMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 22</value>
+  </data>
+  <data name="messageListMenu.Text" xml:space="preserve">
+    <value>メッセージ一覧の表示(&amp;L)</value>
+  </data>
+  <data name="toolStripSeparator9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>223, 6</value>
+  </data>
+  <data name="messageViewInbox.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKsSURBVDhPjZLLTxNRGMXn7/A/YCcrXZjgI2pQF61bw0YT
+        FyyAAKkPJCBBkETURKgmFoKp4SEaeSuKFgoYkBYKVAq0dEpaWlqGvqaPmU5njnduK7ELHyf55d7ce8/5
+        7p35mD/J8NF7pscUhHE6BMNn3/X88v/p4RvXg8G5IDxBAf6wiPElDm2DO3357b+rqdc5PbEUQjytQMwC
+        EkGQFMz9COO+0cm2De0eyx8tVMeY73jHuFe0unjwxMwLgD+apSRFEkZCtv0p6Cf20PqO1eZtOT19z9YY
+        TQHc7l7L0bUKnWEVtS9tqHq+jPJnFtzrWSVzKyoJveYg6ns9emrWj7nl8aVDBEgl1fwvqSHq8z6tRNA8
+        4JKZJ/0Oj5CREUtmaVVV+o1CKmYyuDqapnsVeiv4lITheS/O1QyyTN2LZSVOFnQG+1HAYVxEmBfpGIyk
+        4dnnYWcjdE/bYEZ55zq2fDFoWmcVpkpvIx9IxrA1hltdNnpINUcI0QQJIiH74RRce3EoClDWtoDOqSi4
+        hADNowUwNx9baMD6nowRSwydIy5qjhBzLJmhqIF+LoXmvi10z0TxwZHFIflNNOBayyINcOzLsPtlTK5w
+        qHvlQOPrzQLu9jiw6E5j2pmlHAVo6udpwGZQhm1XxOj3AzIKNOx31LWB+RDM2wK+sfmAdhJwQWcmnSZj
+        zSvS6urBjUCh+RfqDYZIgTmnAC6u3mARzKnKSSVJenbKxmHDJ4LlFLAHCtwEJ8FF2AmReYjckjzT6hEw
+        Slrde8BD02JWmOIyozsY5mU2EFWiSQmxtERaWUJCkEgLq22cRYqQVsnkCHBx2WIPpUtq+3eYIm27qfjG
+        UORk1UTmRPWkdFo3I529Y5bON5qli02zUmnLrHSJcLk1x5Wmr5nShi+Jkuq3u0XadtNPAizmAfmyrB8A
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="messageViewInbox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 22</value>
+  </data>
+  <data name="messageViewInbox.Text" xml:space="preserve">
+    <value>受信トレイの表示(&amp;I)</value>
+  </data>
+  <data name="helpMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 20</value>
+  </data>
+  <data name="helpMenu.Text" xml:space="preserve">
+    <value>ヘルプ(&amp;H)</value>
+  </data>
+  <data name="helpAboutMenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAI7SURBVDhPpY9daFJhHMYN+qCYnqmz7ruObqRb3dxk
+        NlcQXRTURRRlmmUOokCsybQj2klttWlKk4HapqOLNWEMgtb62IeNVVirizV20ShmtFxuevTJV1D8uqqL
+        3znv/8/veXhfDoD/ou5Sc6jJyCgESaeyETYFBaOMv3FKLDLXc2sWKrHget9Rfs57UgBPnt7jfNAdFPQS
+        Xk55UGiq9isGQq+CijNyHmhpA2gZF7SSD0unCNdaBDgtpn5V+xUDgZY0wC5vwnjPCbyPmPFlwoOnDjUu
+        yffD2kzlBm8c2VXuV4QJpCC1PIvfMwNYmw1hLTaM1TcBJJZisMsovPNrdpb7FWGCVcrNJmaCSMxHkFwY
+        zhPG97kwErEQ7K2NbLVfMexTBnZYJLzMtPcyNud8SH14UuDPfAAv75+BtVW0KZJ7d5dnSgdRR6jwtm7p
+        XmSefcakW1tBZuIjDG0H8go4Qpl7TzFX+AgPD20j/7fnaLjPNyMb/QT2znOwpjGwxhGwt0LI9o/B13UM
+        xCEu1dK/vVRQDKfHJ5EcmQLre4GMbRQZYwjp7gBYJoy0wQ3WFQb7wF8qKRWQKxbee3cAixoHUrYItkwB
+        /NDfw1edDRs3PdjqYrB41oxUX7DgkkxNwbrdi7jehRWdA990DFJXnVjXWrGiobGqsiB+hcHP257aglcP
+        tTGyiF6w5KZUVmQMwbqQq0dVPSxx85mFUgFh6bGa62/XOEOdulEi1mOw7eLrR+0a1/KQmlvMlQr+DXD+
+        Arc3w4Xeen6YAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="helpAboutMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>180, 22</value>
+  </data>
+  <data name="helpAboutMenu.Text" xml:space="preserve">
+    <value>バージョン情報(&amp;A)</value>
+  </data>
+  <metadata name="notifyMenu.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>249, 17</value>
+  </metadata>
+  <data name="notifyMainWindowMenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGySURBVDhPpZNZSwJRGIbPj+sPRFES0ULRQouVJY1F
+        FGEF0b7RvhiFZVnRQkVRM2qTNpOp2ep9dJeOKOrwNmekKPBiqAceDufiPd/h+84hAP4l6bGF2IHdkNS2
+        /grTmuLqM5iVRzDLjzAu3aNlIQDDvA9NM7domBahn/SgdvwaphmH1DjGscRsC8ni6weWLt8xevyWUScv
+        /FpRnoV1xxv0w5cyUSuvvoCxpCu3Lj/AuHiP5gU/DHN36cpTAuon0pVrRq5QPeRA5QCHiv4LEBoOBAKa
+        9fv935b1noEwlielF3+jxHyiHKBcmyLLckZTqRSSySQSiQTi8ThisRii0aiaKeo6AqGdpmgNSpKESCSi
+        Zgo7DkDomChag+FwWJVS0L4HQjtN0Rr8eYDOtANCx0TRGvySkte6BaKfulE3WoNfUnJbbCD142518xdy
+        DBsgtaM8RFFEMBhUH4rP54PX64UgCPB4PHC73eB5Hi6XC06nExzHgWVZ2O12ZDdZQepGuNmqwfSzLO87
+        R6n5FMXdxyjqPFTGtK92Wte2i3xmG3nGLeXam0plK7IbFRsssxm/qHZBPgErb2NRTV7dLgAAAABJRU5E
+        rkJggg==
+</value>
+  </data>
+  <data name="notifyMainWindowMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
+  </data>
+  <data name="notifyMainWindowMenu.Text" xml:space="preserve">
+    <value>メインコンソールを開く(&amp;D)</value>
+  </data>
+  <data name="notifySettingMenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJZSURBVDhPpZLtS1NhGMbPf9D36FOBXyT62sdeIDKCNjKQ
+        JA0WEmm+snRHCkSGmhhmU9vSkJzJzARDbRFTcyubStOpc+pS03bOxHnOztzZyda4es7ZIbKCsC74cT9v
+        9/Xc3M9D/be0xbb8hueBWGV3APRTgnUJhid+3OqYh/7xHMravSi1eFBs/oCilkkUmNygW1wxOU8xMPb6
+        k02vQtgvNxpHkoqBfPO/kFc/CsWAti4jHo/vG12NI2Vg6FyEKIqIKcQQixHI2Ol0/saUwwR/VxaW+42Y
+        bj+D6eb0HEpuWDQaRVa19wc7ZC4n/CyR6Qc7XI6IdwDYCYL39mLs7tkQJXc7IggQIgQhokZhj4HIDILz
+        VWF34wXY0XrEZ/vwbc0FjyVPouSn4jgePM8rUYHnSOTIGoetFZI8dxvJuAvxjwXYnriJhU4d3GbCA00a
+        VdY2g3A4jC0VeRzeCisVTDiawc0akJTGIQZyIa1nI+qjsdahQeGdtlQTi1qnsLm5uacH8nykrw7sZLma
+        nAPp02UIc5VYsZwHu+BCpr43ZVBomgDLsoSQGlksvLPCZ9eTsscgrerwZf0KIqSSgPkcvgqMcuZiWU/K
+        oKDpPYJBhhAEQ3APtmJ+iMbMy0Z8dl+CuJqN7ekKLD+6gI1FDxhGPsdAW2pLGWhLum3X7zmVn3Wtdhg9
+        daeB6Br8lkwM0wfx9mEGhqpOIN9gJmU/IzfboC2R6bYpBr+q+mpaYnfchF33fbiNJ9GVe2jHXp5+TN3+
+        uzTHD0g1uUcS9tqMxOuGU28GKo4eVrf+IIr6DumBl6OrjLdiAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="notifySettingMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
+  </data>
+  <data name="notifySettingMenu.Text" xml:space="preserve">
+    <value>基本設定(&amp;S)</value>
+  </data>
+  <data name="toolStripSeparator3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 6</value>
+  </data>
+  <data name="notifyOpenInboxMenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKsSURBVDhPjZLLTxNRGMXn7/A/YCcrXZjgI2pQF61bw0YT
+        FyyAAKkPJCBBkETURKgmFoKp4SEaeSuKFgoYkBYKVAq0dEpaWlqGvqaPmU5njnduK7ELHyf55d7ce8/5
+        7p35mD/J8NF7pscUhHE6BMNn3/X88v/p4RvXg8G5IDxBAf6wiPElDm2DO3357b+rqdc5PbEUQjytQMwC
+        EkGQFMz9COO+0cm2De0eyx8tVMeY73jHuFe0unjwxMwLgD+apSRFEkZCtv0p6Cf20PqO1eZtOT19z9YY
+        TQHc7l7L0bUKnWEVtS9tqHq+jPJnFtzrWSVzKyoJveYg6ns9emrWj7nl8aVDBEgl1fwvqSHq8z6tRNA8
+        4JKZJ/0Oj5CREUtmaVVV+o1CKmYyuDqapnsVeiv4lITheS/O1QyyTN2LZSVOFnQG+1HAYVxEmBfpGIyk
+        4dnnYWcjdE/bYEZ55zq2fDFoWmcVpkpvIx9IxrA1hltdNnpINUcI0QQJIiH74RRce3EoClDWtoDOqSi4
+        hADNowUwNx9baMD6nowRSwydIy5qjhBzLJmhqIF+LoXmvi10z0TxwZHFIflNNOBayyINcOzLsPtlTK5w
+        qHvlQOPrzQLu9jiw6E5j2pmlHAVo6udpwGZQhm1XxOj3AzIKNOx31LWB+RDM2wK+sfmAdhJwQWcmnSZj
+        zSvS6urBjUCh+RfqDYZIgTmnAC6u3mARzKnKSSVJenbKxmHDJ4LlFLAHCtwEJ8FF2AmReYjckjzT6hEw
+        Slrde8BD02JWmOIyozsY5mU2EFWiSQmxtERaWUJCkEgLq22cRYqQVsnkCHBx2WIPpUtq+3eYIm27qfjG
+        UORk1UTmRPWkdFo3I529Y5bON5qli02zUmnLrHSJcLk1x5Wmr5nShi+Jkuq3u0XadtNPAizmAfmyrB8A
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="notifyOpenInboxMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
+  </data>
+  <data name="notifyOpenInboxMenu.Text" xml:space="preserve">
+    <value>受信トレイを開く(&amp;M)</value>
+  </data>
+  <data name="notifyMailCheckMenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAK5SURBVDhPxZJdSNNRGMZPGHXRRVdBIGhBRNqVXaSYkaSY
+        0JcifZCZpGSSmBIimMZM0/ycE2ozAm0NqZRKMy1D0E2d32YlWmmaTp3uQzfn3P777/yfztaIpBvveuCB
+        w3vO83vPyznk/yvnUW+7SD5qSpGN8PEVPTRO3ENjxWp6saybni/tojElnTS6SEXPFCrpyXsdNFLU5Tyd
+        r7SFZzVq/KLL24m4fmzSYrULZqsTnBMb7PjLvMsUcDJb1nnM6yw0LKN+gmRXDQurrCB9q8HkIodlq4Dv
+        SxSTOoopA8WMkWJuRYDWLGDdAfzUcSiom8W3OTOi7ncKJF06Ao6hG4fMkDZrMLXEwWwTNgR1FgE2FtYY
+        OJS8msXDNhMMa3ZElfWCJIkH3YAv8xRvBn9DXF2sHNxB45rA9oF5I4fyBg2qlSa8G3fCaPEAYgv73IDx
+        RYrRBYp6tRHFdZPubq6ga/6FZQ6pinBcqwlAx4TT7T+AqDvdbsBXNvfIDIemfj2edRtQ1aLBD60NU4s2
+        yNg6+Wko7jZdwoWqA1BPewDlDBCRqYKdAT5rOLR+NDCIHWNairTao7ipCEay/DASqg8h5/U51A1UIqP+
+        LE5IvKFftbEb9IGEpLUKVvZmbSMGjM1xmDYImNYLSFEEomFYipdDD9zB5wMSSNoyIO8pQXJtBIKKdyCq
+        UCmQgDjF1NKyhU5rTYLJyrMX4GFhTmTzusLiD2kofp+CgpYk5DZdRV7zdVSp8nH5SQj2i7wE4vpNAYkN
+        K0HpLY7AW618aKaSP56l4mMf++FFvwS1veWQq0tQ3V3EIDcgU+UhqTYSe3J2O/xjCpSeD/2vTsn20vBK
+        b3qsYhc9UrqTXqkJhlSZiwRFBHxyyKd9qWS75+jmdDB/iz5eHgbf22TQX0S2ecqbl28W0ftke4GIyFZP
+        iYmQX3O0R2A/be6PAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="notifyMailCheckMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
+  </data>
+  <data name="notifyMailCheckMenu.Text" xml:space="preserve">
+    <value>メールチェック(&amp;C)</value>
+  </data>
+  <data name="notifyMessageListMenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGXSURBVDhPxZJbSwJRFIX9eb1aURLRhSKiJG8UaBFESEEU
+        IWKYmWmDOuWIDomMopMY2o2iKLDyB/QDfNNxNWefipAIrIcWLAYW+3xrzp4x/FlGqzi7KdUbi7E6XFHd
+        wjOckRoWDh4xv/8AR/Ae9t1bWP03sPiuYPZewOU7a7BzBHAnappHeUW3ntlWNQKw5t94auMUBHAJL/iN
+        JtYKHOA8fKJgWqUHqtUqKpUKyuUySqUSVFVFoVBAPp+HoihkpjF37h2gL+wntdvtT2uaRmYaWclyANs2
+        BRxMrcViEblcDtlsFplMBrIsI5VKIZlMQpIkmhteznAA+1Sd+q71w61Wi2aGlmQOcOzdUdAr84Psjqw1
+        nU5TmyiKiEajEAQBkUgE4XCY5k2uFAdYdq4p6GxjTV/dbDY/zdQ/n+CAOe8lBT0J0EF2X9Ycj8epNRQK
+        IRgMIhAIwO/3k5n6HEccYPacU9CtjHaRA4y2mDi9VaY/a3K9iHF3HqOrir7lE1qUaTGNQWcSAwuS/trH
+        erMIo405JhLgn2UwvAHl3ofYxbW6egAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="notifyMessageListMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
+  </data>
+  <data name="notifyMessageListMenu.Text" xml:space="preserve">
+    <value>メッセージ一覧の表示(&amp;U)</value>
+  </data>
+  <data name="toolStripSeparator4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 6</value>
+  </data>
+  <data name="notifyConnectMenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALISURBVDhPfZJbTFJxHMfZcm6++tQTb61aLVfpkoaX
+        lrVpxbIyzSHaxWs2xZg51C6SgoqdEkkw5EzFW+TRTMQEEYehzWu1JpIt07w1W72kRQ/fzjkbPRj18Plv
+        Zzuf//f8vr/DAfBfHju/+Rkc61z9wBpPbVoSVFIfJHdaZz35+jfmzJpxf5+Sl9bhrwENtnVnvWUFtb2f
+        UN09D4JyQ2Oag5ScQnyZw+xT9EKn5hvsq+gaXUO7YwmNAx+h7Z1DhfEtSgzTiMo3eXyKDHV9y/7E04XN
+        tqEVkP3zqHziQknza9yon8TdllcQltkQltkh8Sl7oWctVRhnUdPtRnWXC3naMWTcH0aBbhQxed04lNgo
+        +EtqsNOF6fU6rVZLMs+pxEgRPetmTu1LFJFjuFBqxdVqB8Ivt2D/KQ3vj9js+BJA2j531nVO/jCbzbBa
+        rVAqlewl9Kz8yGvUhlBmQTphR0qFBQdPa7HnKMH1pvrpLCvuJrqwpsElVNSbflEUBZlMRkql0m1isTiQ
+        l9zKD44nN07mdSAiuRG7j9xz74xQ+LEXaPqWuaqeRXQ4V9FiXwTR9Q7iqp6fSYqhcFom09PTXSKRaHtQ
+        jJpPp37fdaSyc0d4WQDjshcoqXmeknoPg20B5UYXap7NsntOKGjyqFQqtLe3Iy4uziUQCALpVC7jeGGP
+        W80zgpKWGXbHxQ3TuF43Ru95ChLtCBKyyyGXy0HLbB9bYY9czaSkiBYJagZM22mEA0LFAK4o7biosIIf
+        K/OEnihmP3krnCz1hH+K0umR0T9HITmOQv0Ym5xNryq1yoZjmW3YF12T70tm4CQqhj0Z1U7cbpxA7sMX
+        OFvYi+NZRoSJmhByRoe9UQ+cdOM+0xk4MUX9ZqF8EOdvPsfhS62ekHhSciD2kSAoWs1j9kw37udL9MKJ
+        zOkK4KcZzaFJBk/wOb2/r5f+DTi/AcFGp9AV5agvAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="notifyConnectMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
+  </data>
+  <data name="notifyConnectMenu.Text" xml:space="preserve">
+    <value>一時停止(&amp;N)</value>
+  </data>
+  <data name="toolStripSeparator5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 6</value>
+  </data>
+  <data name="notifyAboutMenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAI7SURBVDhPpY9daFJhHMYN+qCYnqmz7ruObqRb3dxk
+        NlcQXRTURRRlmmUOokCsybQj2klttWlKk4HapqOLNWEMgtb62IeNVVirizV20ShmtFxuevTJV1D8uqqL
+        3znv/8/veXhfDoD/ou5Sc6jJyCgESaeyETYFBaOMv3FKLDLXc2sWKrHget9Rfs57UgBPnt7jfNAdFPQS
+        Xk55UGiq9isGQq+CijNyHmhpA2gZF7SSD0unCNdaBDgtpn5V+xUDgZY0wC5vwnjPCbyPmPFlwoOnDjUu
+        yffD2kzlBm8c2VXuV4QJpCC1PIvfMwNYmw1hLTaM1TcBJJZisMsovPNrdpb7FWGCVcrNJmaCSMxHkFwY
+        zhPG97kwErEQ7K2NbLVfMexTBnZYJLzMtPcyNud8SH14UuDPfAAv75+BtVW0KZJ7d5dnSgdRR6jwtm7p
+        XmSefcakW1tBZuIjDG0H8go4Qpl7TzFX+AgPD20j/7fnaLjPNyMb/QT2znOwpjGwxhGwt0LI9o/B13UM
+        xCEu1dK/vVRQDKfHJ5EcmQLre4GMbRQZYwjp7gBYJoy0wQ3WFQb7wF8qKRWQKxbee3cAixoHUrYItkwB
+        /NDfw1edDRs3PdjqYrB41oxUX7DgkkxNwbrdi7jehRWdA990DFJXnVjXWrGiobGqsiB+hcHP257aglcP
+        tTGyiF6w5KZUVmQMwbqQq0dVPSxx85mFUgFh6bGa62/XOEOdulEi1mOw7eLrR+0a1/KQmlvMlQr+DXD+
+        Arc3w4Xeen6YAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="notifyAboutMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
+  </data>
+  <data name="notifyAboutMenu.Text" xml:space="preserve">
+    <value>アバウト(&amp;A)</value>
+  </data>
+  <data name="notifyOfficialSiteMenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAANqSURBVDhPXZJvTNR1AIdv03KuXL2pteV8QbnVVmuU
+        xESolRtJG5GxZJIgaN75h0MZZOMMwoOSIPRohAiecnceIGjHcdyheHfA8efAu+Pu4OD412FIBhThKMxJ
+        29PvWJr24nn3fZ7fvt/fRwQ8QnpXapRAvcCkwJ8CdwVmBZqktpRt/z//sLha4EJQuPaTFudcK9Yb3TSP
+        ddPot3DJX8MBa9KyuDXRtMeU8OQjAUF6TKBLPfItM0suxuZ9DM73o5t0YwwMo/b5UHn6qfd0Udp3giRd
+        vHdnfdxTDwe01f4TBBbbGV60M7QwhHvWQ834EA2BCRSucYp7/Zzs6EM3ZKHULiNe875pJSDIkQL3pv5o
+        p3nByKXbRlrmO2i56ePsyCjfD44hNbqQGuwUOIxUTpbh+kVHbFX03zHl78YFA5eNgQqcvxqpXdBz8fc+
+        +ua8lLiHKHaMIm52ITGbyRiuJDMgJ2NChsZTyoXeQraeiroaDEwN/GZAPVVFyZxS+LoP+5yH9KtuxHon
+        n/U5kIwfJXZUTKx/H0mDaeRey8Q2ruWtws23goGlidtW8keOIx3/nMqf26iddJJUd500i43isSukjNSw
+        vzaSfedD+dC8k7SGvfRPN7FZHnZHJO1MufPjgpUcbyZpXgXnbphJrrWT3DhI/Jke0s09yLw6PlVv4bgh
+        kYSKl5BoEum/qScsN/Qv0cG25Gn3bCMKXz5FE23IHZ3sUDs5rI1CqolAogojVRnKF7qPqXeUktUQR/Sp
+        5zCPqHhd9tqMSBhGk87/Hc2Bao70FJDnqWOXtptDmnAa+8u57CpbEescChTmLFT2IvZrowkvXBsMtIlS
+        m3dEC8NYHpwzkmU+QIYlHanJyl7hvkH5ZOthvrlyiK9MYvIMqciNEips+eyqjmTjl6LllSEl1H2gL2k/
+        isF/hrz2bHJtZj6pepmL1xVoe0tQ9RRxrrtQiBzktE2OWLuNF3IeX3o+W7R2JfCRKmadMAzv1y1HsM/8
+        QPVAO9tPhxBTul7418+ypfhpks9HUN6Rxx5NNCE5a+6+Intxw4MpB3mv7J11wjBMbxdFLCu7q1DaDJzt
+        sKDstKIfaGRT4RPsVm0l5NiaxVdlG9ff9x4E7hNR8Ob28Lw3WjblhE4Lj7T0L7dCclbd23BsFc9ki1b/
+        dx7RPxe0rmcJTZoRAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="notifyOfficialSiteMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
+  </data>
+  <data name="notifyOfficialSiteMenu.Text" xml:space="preserve">
+    <value>公式サイトを開く(&amp;O)</value>
+  </data>
+  <data name="toolStripSeparator6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>189, 6</value>
+  </data>
+  <data name="notifyExitMenu.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29m
+        dHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAALgSURBVDhPXZFdSFNhHMZfEz8m0kYapBdKCmMOEZSZ
+        qJPpPlDStQ1FUZGmaUvU6SJ0S7RDY0jI2hIEoRAiIoPK6ENTEpdCBOGF1LxJuwqEZBeG5r7c0/se2GZe
+        PJzDOe/ze57//yUAYgr9fJBIJTz5LfKJnGPP4xViDC+Tc6FFIgy+I4Lo/5PmIqpdqtXQjmuaShnacZ45
+        XiXy449kLrxE1kMLxBl4SzxRz2nAJNVaaMcd3N9y/d7bdB4Ev13D8mz9YXApIRL5UoPwBwn88+Tz0Qty
+        /XCOXDwN6Axsu/0byxNH952TWHw1g4PvHPyePES+qoA1LfBageDT8zh8RvqjvhhgZtpp3t24h8C2C7Zb
+        JvT39+PNo6v4+16A8IoEWFADTy4hMCvCj+mUrT+z5EIMYLfbZVar9dfd8ZvY25yEnbOipKQEDocD9nEL
+        Dl4m4uB5AvyPz2LdJUZRUZG3oKBAFgOMjY1xU1NT0Ov1GBkZQUdHB/Lz89HX14eHjkbMjGuw6szDhFmO
+        +TtSNOouIzc3l4sBqMnDAD09PXyyRCKByWSCzWbDwMAAOjs7cfuGGgb9FWi1WjQ1NSErK4u/DR4wODjo
+        c7vdoE14jY6OYnh4GGazGV1dXWhtbYVOp0NdXR3UajUPyMzM9MUA3d3dPo7jYLFYQGH8AlkDo9GIlpYW
+        3lxbW4uamhpUVVWhvr4eIpEoDmhvb/cMDQ2ht7eXr8t20NbWxic1NDRAo9FAoVCgvLwclZWVPCQ9PT0+
+        Ak3gmJHVbW5uhsFg4GdllZVKJW8oKyuDTCaDXC6HVCqFQCCIL7G6ulpGyV4GYKnMqFKp+NSKigqUlpai
+        uLiYhzAANXtTUlLi18hED5gKCwv3WQNWm83LKjMzE3tnMGreT05ONkV9MQATvXtTTk6Olx1kc7PFsRFY
+        slgsBk31JiUlxcxM/wGYsrOzZRkZGZxQKPTQRfnS0tJ8qampHprKUTNfOy6Qf9FeQF9xj6ASAAAAAElF
+        TkSuQmCC
+</value>
+  </data>
+  <data name="notifyExitMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>192, 22</value>
+  </data>
+  <data name="notifyExitMenu.Text" xml:space="preserve">
+    <value>終了(&amp;X)</value>
+  </data>
+  <data name="notifyMenu.Size" type="System.Drawing.Size, System.Drawing">
+    <value>193, 248</value>
+  </data>
+  <data name="&gt;&gt;notifyMenu.Name" xml:space="preserve">
+    <value>notifyMenu</value>
+  </data>
+  <data name="&gt;&gt;notifyMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ContextMenuStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="logBox.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="logBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 49</value>
+  </data>
+  <data name="logBox.ScrollBars" type="System.Windows.Forms.RichTextBoxScrollBars, System.Windows.Forms">
+    <value>Vertical</value>
+  </data>
+  <data name="logBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 244</value>
+  </data>
+  <data name="logBox.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="logBox.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;logBox.Name" xml:space="preserve">
+    <value>logBox</value>
+  </data>
+  <data name="&gt;&gt;logBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;logBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;logBox.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="notify.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>469, 17</value>
+  </metadata>
+  <data name="notify.Text" xml:space="preserve">
+    <value>GmailChecker 2 - 月光 -</value>
+  </data>
+  <data name="notify.Visible" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <metadata name="toolStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>0, 26</value>
+  </metadata>
+  <data name="toolStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 24</value>
+  </data>
+  <data name="toolStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>458, 25</value>
+  </data>
+  <data name="toolStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="toolStrip1.Text" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Name" xml:space="preserve">
+    <value>toolStrip1</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStrip, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;toolStrip1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="toolStripSeparator12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="toolSettingButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJZSURBVDhPpZLtS1NhGMbPf9D36FOBXyT62sdeIDKCNjKQ
+        JA0WEmm+snRHCkSGmhhmU9vSkJzJzARDbRFTcyubStOpc+pS03bOxHnOztzZyda4es7ZIbKCsC74cT9v
+        9/Xc3M9D/be0xbb8hueBWGV3APRTgnUJhid+3OqYh/7xHMravSi1eFBs/oCilkkUmNygW1wxOU8xMPb6
+        k02vQtgvNxpHkoqBfPO/kFc/CsWAti4jHo/vG12NI2Vg6FyEKIqIKcQQixHI2Ol0/saUwwR/VxaW+42Y
+        bj+D6eb0HEpuWDQaRVa19wc7ZC4n/CyR6Qc7XI6IdwDYCYL39mLs7tkQJXc7IggQIgQhokZhj4HIDILz
+        VWF34wXY0XrEZ/vwbc0FjyVPouSn4jgePM8rUYHnSOTIGoetFZI8dxvJuAvxjwXYnriJhU4d3GbCA00a
+        VdY2g3A4jC0VeRzeCisVTDiawc0akJTGIQZyIa1nI+qjsdahQeGdtlQTi1qnsLm5uacH8nykrw7sZLma
+        nAPp02UIc5VYsZwHu+BCpr43ZVBomgDLsoSQGlksvLPCZ9eTsscgrerwZf0KIqSSgPkcvgqMcuZiWU/K
+        oKDpPYJBhhAEQ3APtmJ+iMbMy0Z8dl+CuJqN7ekKLD+6gI1FDxhGPsdAW2pLGWhLum3X7zmVn3Wtdhg9
+        daeB6Br8lkwM0wfx9mEGhqpOIN9gJmU/IzfboC2R6bYpBr+q+mpaYnfchF33fbiNJ9GVe2jHXp5+TN3+
+        uzTHD0g1uUcS9tqMxOuGU28GKo4eVrf+IIr6DumBl6OrjLdiAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolSettingButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolSettingButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolSettingButton.Text" xml:space="preserve">
+    <value>基本設定</value>
+  </data>
+  <data name="toolStripSeparator11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>6, 25</value>
+  </data>
+  <data name="toolMailCheckButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAK5SURBVDhPxZJdSNNRGMZPGHXRRVdBIGhBRNqVXaSYkaSY
+        0JcifZCZpGSSmBIimMZM0/ycE2ozAm0NqZRKMy1D0E2d32YlWmmaTp3uQzfn3P777/yfztaIpBvveuCB
+        w3vO83vPyznk/yvnUW+7SD5qSpGN8PEVPTRO3ENjxWp6saybni/tojElnTS6SEXPFCrpyXsdNFLU5Tyd
+        r7SFZzVq/KLL24m4fmzSYrULZqsTnBMb7PjLvMsUcDJb1nnM6yw0LKN+gmRXDQurrCB9q8HkIodlq4Dv
+        SxSTOoopA8WMkWJuRYDWLGDdAfzUcSiom8W3OTOi7ncKJF06Ao6hG4fMkDZrMLXEwWwTNgR1FgE2FtYY
+        OJS8msXDNhMMa3ZElfWCJIkH3YAv8xRvBn9DXF2sHNxB45rA9oF5I4fyBg2qlSa8G3fCaPEAYgv73IDx
+        RYrRBYp6tRHFdZPubq6ga/6FZQ6pinBcqwlAx4TT7T+AqDvdbsBXNvfIDIemfj2edRtQ1aLBD60NU4s2
+        yNg6+Wko7jZdwoWqA1BPewDlDBCRqYKdAT5rOLR+NDCIHWNairTao7ipCEay/DASqg8h5/U51A1UIqP+
+        LE5IvKFftbEb9IGEpLUKVvZmbSMGjM1xmDYImNYLSFEEomFYipdDD9zB5wMSSNoyIO8pQXJtBIKKdyCq
+        UCmQgDjF1NKyhU5rTYLJyrMX4GFhTmTzusLiD2kofp+CgpYk5DZdRV7zdVSp8nH5SQj2i7wE4vpNAYkN
+        K0HpLY7AW618aKaSP56l4mMf++FFvwS1veWQq0tQ3V3EIDcgU+UhqTYSe3J2O/xjCpSeD/2vTsn20vBK
+        b3qsYhc9UrqTXqkJhlSZiwRFBHxyyKd9qWS75+jmdDB/iz5eHgbf22TQX0S2ecqbl28W0ftke4GIyFZP
+        iYmQX3O0R2A/be6PAAAAAElFTkSuQmCC
+</value>
+  </data>
+  <data name="toolMailCheckButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolMailCheckButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 22</value>
+  </data>
+  <data name="toolMailCheckButton.Text" xml:space="preserve">
+    <value>メールチェック</value>
+  </data>
+  <data name="testToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 22</value>
+  </data>
+  <data name="testToolStripMenuItem.Text" xml:space="preserve">
+    <value>test</value>
+  </data>
+  <data name="nullpoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 22</value>
+  </data>
+  <data name="nullpoToolStripMenuItem.Text" xml:space="preserve">
+    <value>nullpo</value>
+  </data>
+  <data name="toolMessageListButton.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGXSURBVDhPxZJbSwJRFIX9eb1aURLRhSKiJG8UaBFESEEU
+        IWKYmWmDOuWIDomMopMY2o2iKLDyB/QDfNNxNWefipAIrIcWLAYW+3xrzp4x/FlGqzi7KdUbi7E6XFHd
+        wjOckRoWDh4xv/8AR/Ae9t1bWP03sPiuYPZewOU7a7BzBHAnappHeUW3ntlWNQKw5t94auMUBHAJL/iN
+        JtYKHOA8fKJgWqUHqtUqKpUKyuUySqUSVFVFoVBAPp+HoihkpjF37h2gL+wntdvtT2uaRmYaWclyANs2
+        BRxMrcViEblcDtlsFplMBrIsI5VKIZlMQpIkmhteznAA+1Sd+q71w61Wi2aGlmQOcOzdUdAr84Psjqw1
+        nU5TmyiKiEajEAQBkUgE4XCY5k2uFAdYdq4p6GxjTV/dbDY/zdQ/n+CAOe8lBT0J0EF2X9Ycj8epNRQK
+        IRgMIhAIwO/3k5n6HEccYPacU9CtjHaRA4y2mDi9VaY/a3K9iHF3HqOrir7lE1qUaTGNQWcSAwuS/trH
+        erMIo405JhLgn2UwvAHl3ofYxbW6egAAAABJRU5ErkJggg==
+</value>
+  </data>
+  <data name="toolMessageListButton.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolMessageListButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolMessageListButton.Text" xml:space="preserve">
+    <value>メッセージ一覧</value>
+  </data>
+  <data name="toolStripButton1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKsSURBVDhPjZLLTxNRGMXn7/A/YCcrXZjgI2pQF61bw0YT
+        FyyAAKkPJCBBkETURKgmFoKp4SEaeSuKFgoYkBYKVAq0dEpaWlqGvqaPmU5njnduK7ELHyf55d7ce8/5
+        7p35mD/J8NF7pscUhHE6BMNn3/X88v/p4RvXg8G5IDxBAf6wiPElDm2DO3357b+rqdc5PbEUQjytQMwC
+        EkGQFMz9COO+0cm2De0eyx8tVMeY73jHuFe0unjwxMwLgD+apSRFEkZCtv0p6Cf20PqO1eZtOT19z9YY
+        TQHc7l7L0bUKnWEVtS9tqHq+jPJnFtzrWSVzKyoJveYg6ns9emrWj7nl8aVDBEgl1fwvqSHq8z6tRNA8
+        4JKZJ/0Oj5CREUtmaVVV+o1CKmYyuDqapnsVeiv4lITheS/O1QyyTN2LZSVOFnQG+1HAYVxEmBfpGIyk
+        4dnnYWcjdE/bYEZ55zq2fDFoWmcVpkpvIx9IxrA1hltdNnpINUcI0QQJIiH74RRce3EoClDWtoDOqSi4
+        hADNowUwNx9baMD6nowRSwydIy5qjhBzLJmhqIF+LoXmvi10z0TxwZHFIflNNOBayyINcOzLsPtlTK5w
+        qHvlQOPrzQLu9jiw6E5j2pmlHAVo6udpwGZQhm1XxOj3AzIKNOx31LWB+RDM2wK+sfmAdhJwQWcmnSZj
+        zSvS6urBjUCh+RfqDYZIgTmnAC6u3mARzKnKSSVJenbKxmHDJ4LlFLAHCtwEJ8FF2AmReYjckjzT6hEw
+        Slrde8BD02JWmOIyozsY5mU2EFWiSQmxtERaWUJCkEgLq22cRYqQVsnkCHBx2WIPpUtq+3eYIm27qfjG
+        UORk1UTmRPWkdFo3I529Y5bON5qli02zUmnLrHSJcLk1x5Wmr5nShi+Jkuq3u0XadtNPAizmAfmyrB8A
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="toolStripButton1.ImageTransparentColor" type="System.Drawing.Color, System.Drawing">
+    <value>Magenta</value>
+  </data>
+  <data name="toolStripButton1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>23, 22</value>
+  </data>
+  <data name="toolStripButton1.Text" xml:space="preserve">
+    <value>受信トレイ</value>
+  </data>
+  <metadata name="logFontDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>554, 17</value>
+  </metadata>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>458, 317</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>GmailChecker 2 - メインコンソール</value>
+  </data>
+  <data name="&gt;&gt;logCopyMenu.Name" xml:space="preserve">
+    <value>logCopyMenu</value>
+  </data>
+  <data name="&gt;&gt;logCopyMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;logAllSelectMenu.Name" xml:space="preserve">
+    <value>logAllSelectMenu</value>
+  </data>
+  <data name="&gt;&gt;logAllSelectMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator7.Name" xml:space="preserve">
+    <value>toolStripSeparator7</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;logDeleteMenu.Name" xml:space="preserve">
+    <value>logDeleteMenu</value>
+  </data>
+  <data name="&gt;&gt;logDeleteMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator13.Name" xml:space="preserve">
+    <value>toolStripSeparator13</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;logFontMenu.Name" xml:space="preserve">
+    <value>logFontMenu</value>
+  </data>
+  <data name="&gt;&gt;logFontMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;latestCheckTimeStatus.Name" xml:space="preserve">
+    <value>latestCheckTimeStatus</value>
+  </data>
+  <data name="&gt;&gt;latestCheckTimeStatus.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripStatusLabel, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainMenu.Name" xml:space="preserve">
+    <value>mainMenu</value>
+  </data>
+  <data name="&gt;&gt;mainMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainSettingMenu.Name" xml:space="preserve">
+    <value>mainSettingMenu</value>
+  </data>
+  <data name="&gt;&gt;mainSettingMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Name" xml:space="preserve">
+    <value>toolStripSeparator1</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainConnectMenu.Name" xml:space="preserve">
+    <value>mainConnectMenu</value>
+  </data>
+  <data name="&gt;&gt;mainConnectMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainConnectStartMenu.Name" xml:space="preserve">
+    <value>mainConnectStartMenu</value>
+  </data>
+  <data name="&gt;&gt;mainConnectStartMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainConnectPauseMenu.Name" xml:space="preserve">
+    <value>mainConnectPauseMenu</value>
+  </data>
+  <data name="&gt;&gt;mainConnectPauseMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Name" xml:space="preserve">
+    <value>toolStripSeparator2</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainHideMenu.Name" xml:space="preserve">
+    <value>mainHideMenu</value>
+  </data>
+  <data name="&gt;&gt;mainHideMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator8.Name" xml:space="preserve">
+    <value>toolStripSeparator8</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;mainExitMenu.Name" xml:space="preserve">
+    <value>mainExitMenu</value>
+  </data>
+  <data name="&gt;&gt;mainExitMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;messageMenu.Name" xml:space="preserve">
+    <value>messageMenu</value>
+  </data>
+  <data name="&gt;&gt;messageMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;messageCheck.Name" xml:space="preserve">
+    <value>messageCheck</value>
+  </data>
+  <data name="&gt;&gt;messageCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;messageListMenu.Name" xml:space="preserve">
+    <value>messageListMenu</value>
+  </data>
+  <data name="&gt;&gt;messageListMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator9.Name" xml:space="preserve">
+    <value>toolStripSeparator9</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;messageViewInbox.Name" xml:space="preserve">
+    <value>messageViewInbox</value>
+  </data>
+  <data name="&gt;&gt;messageViewInbox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;helpMenu.Name" xml:space="preserve">
+    <value>helpMenu</value>
+  </data>
+  <data name="&gt;&gt;helpMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;helpAboutMenu.Name" xml:space="preserve">
+    <value>helpAboutMenu</value>
+  </data>
+  <data name="&gt;&gt;helpAboutMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;notifyMainWindowMenu.Name" xml:space="preserve">
+    <value>notifyMainWindowMenu</value>
+  </data>
+  <data name="&gt;&gt;notifyMainWindowMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;notifySettingMenu.Name" xml:space="preserve">
+    <value>notifySettingMenu</value>
+  </data>
+  <data name="&gt;&gt;notifySettingMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Name" xml:space="preserve">
+    <value>toolStripSeparator3</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;notifyOpenInboxMenu.Name" xml:space="preserve">
+    <value>notifyOpenInboxMenu</value>
+  </data>
+  <data name="&gt;&gt;notifyOpenInboxMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;notifyMailCheckMenu.Name" xml:space="preserve">
+    <value>notifyMailCheckMenu</value>
+  </data>
+  <data name="&gt;&gt;notifyMailCheckMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;notifyMessageListMenu.Name" xml:space="preserve">
+    <value>notifyMessageListMenu</value>
+  </data>
+  <data name="&gt;&gt;notifyMessageListMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Name" xml:space="preserve">
+    <value>toolStripSeparator4</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;notifyConnectMenu.Name" xml:space="preserve">
+    <value>notifyConnectMenu</value>
+  </data>
+  <data name="&gt;&gt;notifyConnectMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Name" xml:space="preserve">
+    <value>toolStripSeparator5</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;notifyAboutMenu.Name" xml:space="preserve">
+    <value>notifyAboutMenu</value>
+  </data>
+  <data name="&gt;&gt;notifyAboutMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;notifyOfficialSiteMenu.Name" xml:space="preserve">
+    <value>notifyOfficialSiteMenu</value>
+  </data>
+  <data name="&gt;&gt;notifyOfficialSiteMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator6.Name" xml:space="preserve">
+    <value>toolStripSeparator6</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;notifyExitMenu.Name" xml:space="preserve">
+    <value>notifyExitMenu</value>
+  </data>
+  <data name="&gt;&gt;notifyExitMenu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;notify.Name" xml:space="preserve">
+    <value>notify</value>
+  </data>
+  <data name="&gt;&gt;notify.Type" xml:space="preserve">
+    <value>System.Windows.Forms.NotifyIcon, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator12.Name" xml:space="preserve">
+    <value>toolStripSeparator12</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolSettingButton.Name" xml:space="preserve">
+    <value>toolSettingButton</value>
+  </data>
+  <data name="&gt;&gt;toolSettingButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator11.Name" xml:space="preserve">
+    <value>toolStripSeparator11</value>
+  </data>
+  <data name="&gt;&gt;toolStripSeparator11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSeparator, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolMailCheckButton.Name" xml:space="preserve">
+    <value>toolMailCheckButton</value>
+  </data>
+  <data name="&gt;&gt;toolMailCheckButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripSplitButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;testToolStripMenuItem.Name" xml:space="preserve">
+    <value>testToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;testToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nullpoToolStripMenuItem.Name" xml:space="preserve">
+    <value>nullpoToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;nullpoToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolMessageListButton.Name" xml:space="preserve">
+    <value>toolMessageListButton</value>
+  </data>
+  <data name="&gt;&gt;toolMessageListButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton1.Name" xml:space="preserve">
+    <value>toolStripButton1</value>
+  </data>
+  <data name="&gt;&gt;toolStripButton1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripButton, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;logFontDialog.Name" xml:space="preserve">
+    <value>logFontDialog</value>
+  </data>
+  <data name="&gt;&gt;logFontDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.FontDialog, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>frmMain</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

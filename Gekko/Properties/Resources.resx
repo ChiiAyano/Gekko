@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutFont" xml:space="preserve">
+    <value>メイリオ</value>
+  </data>
+  <data name="AccountSettingAltAName" xml:space="preserve">
+    <value>（なし）</value>
+  </data>
+  <data name="AccountSettingTestConnecting" xml:space="preserve">
+    <value>接続中です...</value>
+  </data>
+  <data name="AccountSettingTestSucceeded" xml:space="preserve">
+    <value>接続に成功しました。</value>
+  </data>
+  <data name="AccountSettingVoidAccount" xml:space="preserve">
+    <value>アカウント名が入力されていません。</value>
+  </data>
+  <data name="AccountSettingVoidDomain" xml:space="preserve">
+    <value>ドメイン名が入力されていません。</value>
+  </data>
+  <data name="AcoountSettingVoidPassword" xml:space="preserve">
+    <value>パスワードが入力されていません。</value>
+  </data>
+  <data name="BalloonPowerResumed" xml:space="preserve">
+    <value>再開しました。</value>
+  </data>
+  <data name="FirstRunDialog" xml:space="preserve">
+    <value>設定ファイルがありません。
+ウィザードを利用して、簡単に設定することができます。
+
+[はい] でウィザードを、[いいえ] で基本設定ウィンドウを表示します。
+[キャンセル]でアプリケーションを終了します。</value>
+  </data>
+  <data name="LogDeleteDialog" xml:space="preserve">
+    <value>表示されているログをすべて消去します。
+よろしいですか？</value>
+  </data>
+  <data name="MailCheckCountBalloons" xml:space="preserve">
+    <value>{0} 通の新着メッセージがあります。</value>
+  </data>
+  <data name="MailCheckCountNotify" xml:space="preserve">
+    <value>{0} 通の未読メッセージ - </value>
+  </data>
+  <data name="MailCheckError" xml:space="preserve">
+    <value>　通信エラーが発生しました。: {0}</value>
+  </data>
+  <data name="MailCheckErrorCount" xml:space="preserve">
+    <value>{0} つのアカウントでエラーが発生しています。</value>
+  </data>
+  <data name="MailCheckErrorCountNotify" xml:space="preserve">
+    <value>{0} つのアカウントでエラー発生。 - </value>
+  </data>
+  <data name="MailChecking" xml:space="preserve">
+    <value>{0} のメールをチェックしています...</value>
+  </data>
+  <data name="MailCheckMailCount" xml:space="preserve">
+    <value>{0}: {1} 通</value>
+  </data>
+  <data name="MailCheckNoUnread" xml:space="preserve">
+    <value>　未読メッセージはありません。</value>
+  </data>
+  <data name="MailCheckUnreadCount" xml:space="preserve">
+    <value>　{0} 通の未読メッセージがあります。</value>
+  </data>
+  <data name="NotifyConnectMenuConnect" xml:space="preserve">
+    <value>再開(&amp;N)</value>
+  </data>
+  <data name="NotifyConnectMenuDisconnect" xml:space="preserve">
+    <value>一時停止(&amp;N)</value>
+  </data>
+  <data name="NotifyOfficialSiteDialog" xml:space="preserve">
+    <value>公式サイトを表示します。
+よろしいですか？</value>
+  </data>
+  <data name="RunNoAccountDialog" xml:space="preserve">
+    <value>アカウント設定がひとつもありません。
+設定しないとメールチェックはおこなわれません。
+
+[OK]をクリックすると、基本設定ウィンドウを表示します。</value>
+  </data>
+  <data name="SoftwareName" xml:space="preserve">
+    <value>GmailChecker 2 - 月光 -</value>
+  </data>
+  <data name="StatusLatestMailCheck" xml:space="preserve">
+    <value>最終チェック時間: </value>
+  </data>
+  <data name="WriteLogConnectionResumed" xml:space="preserve">
+    <value>接続を再開します。</value>
+  </data>
+  <data name="WriteLogConnectionStopped" xml:space="preserve">
+    <value>接続を中断します。</value>
+  </data>
+  <data name="WriteLogPowerResumed" xml:space="preserve">
+    <value>接続を再開しました。</value>
+  </data>
+  <data name="WriteLogPowerSuspention" xml:space="preserve">
+    <value>Windows が中断されるため、接続を中断します。</value>
+  </data>
+  <data name="MessageListInboxRestore" xml:space="preserve">
+    <value>元に戻しました。</value>
+  </data>
+  <data name="MessageListMailAuthor" xml:space="preserve">
+    <value>送信者: </value>
+  </data>
+  <data name="MessageListSpamChecking" xml:space="preserve">
+    <value>迷惑メールのチェック中です...</value>
+  </data>
+  <data name="MessageListSpamError" xml:space="preserve">
+    <value>エラーが発生しました: </value>
+  </data>
+  <data name="MessageListSpamReceive" xml:space="preserve">
+    <value>チェックが完了しました。メール数: {0} 通。</value>
+  </data>
+  <data name="MessageListSpamReceiveOver" xml:space="preserve">
+    <value>チェックが完了しました。 全 {0} 通中  {1} 通表示。</value>
+  </data>
+  <data name="MessageListToolTip" xml:space="preserve">
+    <value>受信日時: </value>
+  </data>
+  <data name="BrowserRunError" xml:space="preserve">
+    <value>ブラウザへ情報を送信できませんでした。</value>
+  </data>
+  <data name="ExceptionManagerApplicationExceptionHint" xml:space="preserve">
+    <value>ただの例外呼び出しテストです。もし、これがデバッグ以外で発生した場合は作者へご連絡ください。</value>
+  </data>
+  <data name="ExceptionManagerClipboard" xml:space="preserve">
+    <value>クリップボードに情報をコピーしました。</value>
+  </data>
+  <data name="ExceptionManagerDefaultHint" xml:space="preserve">
+    <value>スタックトレースの例外説明をご参照ください。</value>
+  </data>
+  <data name="ExceptionManagerGeneralStacktrace" xml:space="preserve">
+    <value>例外: {0}
+---------------説明
+{1}
+---------------スタックトレース
+{2}</value>
+  </data>
+  <data name="ExceptionManagerMessage" xml:space="preserve">
+    <value> の例外が発生したため、アプリケーションを終了します。以下の内容を作者へご連絡いただきますようお願いいたします。</value>
+  </data>
+  <data name="ExceptionManagerStacktraceEnd" xml:space="preserve">
+    <value>---------------諸情報
+ソフトウェアバージョン: {0}
+Windows OS: {1} ({2})</value>
+  </data>
+  <data name="ExceptionManagerWebExceptionHint" xml:space="preserve">
+    <value>ネットワーク関係で問題が発生しました。ネットワーク状況をもう一度確認してみてください。</value>
+  </data>
+  <data name="SettingAccountDelete" xml:space="preserve">
+    <value>選択したアカウントを削除しますか？</value>
+  </data>
+  <data name="SettingMessageListFontInfo" xml:space="preserve">
+    <value>フォント名: {0}
+サイズ: {1}</value>
+  </data>
+  <data name="SettingMessageListPreviewDetail" xml:space="preserve">
+    <value>Gekko は、Gmail の新着・未読メッセージがあるかチェックし通知して、その場で内容を見ることのできる常駐型ツールです。</value>
+  </data>
+  <data name="SettingMessageListPreviewSender" xml:space="preserve">
+    <value>送信者: Gekko ユーザ</value>
+  </data>
+  <data name="SettingMessageListPreviewTitle" xml:space="preserve">
+    <value>Gekko のメッセージ一覧プレビュー</value>
+  </data>
+  <data name="SettingNoAccountError" xml:space="preserve">
+    <value>アカウント設定がひとつもありません。
+最低でも一つは設定してください。</value>
+  </data>
+  <data name="SettingsMessageListDefaultFont" xml:space="preserve">
+    <value>ＭＳ ゴシック</value>
+  </data>
+  <data name="SettingStartupAlreadyRegisted" xml:space="preserve">
+    <value>スタートアップに既に設定されています。</value>
+  </data>
+  <data name="SettingStartupGmailChecker" xml:space="preserve">
+    <value>GmailChecker のスタートアップが登録されています。
+これを削除して、新たに登録し直しますか？
+
+[はい] で削除して作成、[いいえ] で残したまま作成、[キャンセル] で作成を中断します。</value>
+  </data>
+  <data name="SettingStartupRegested" xml:space="preserve">
+    <value>スタートアップに登録しました。</value>
+  </data>
+  <data name="SettingStartupRegistConfirm" xml:space="preserve">
+    <value>スタートアップに登録しますか？</value>
+  </data>
+  <data name="SettingStartupRegistError" xml:space="preserve">
+    <value>スタートアップに登録できません。</value>
+  </data>
+  <data name="SettingStartupRestoreConfirm" xml:space="preserve">
+    <value>スタートアップから削除しますか？</value>
+  </data>
+  <data name="SettingStartupRestored" xml:space="preserve">
+    <value>スタートアップから削除しました。</value>
+  </data>
+  <data name="SettingStartupRestoreError" xml:space="preserve">
+    <value>スタートアップにショートカットはありません。</value>
+  </data>
+  <data name="SettingFontNotAvailableRegular" xml:space="preserve">
+    <value>選択されたフォントは使用できません。</value>
+  </data>
+  <data name="MessageListToolTipTime" xml:space="preserve">
+    <value>yyyy/MM/dd HH:mm:ss</value>
+  </data>
+  <data name="NotifyPause" xml:space="preserve">
+    <value>中断しています - {0}</value>
+  </data>
+  <data name="VersionUpCheckError" xml:space="preserve">
+    <value>バージョンアップ確認中にエラーが発生しました。
+{0}:
+{1}</value>
+  </data>
+  <data name="VersionUpCompleted" xml:space="preserve">
+    <value>ダウンロードが完了しました。
+{0} を終了して、アップデートをおこないますか？</value>
+  </data>
+  <data name="VersionUpError" xml:space="preserve">
+    <value>ダウンロードの実行中にエラーが発生しました。
+{0}:
+{1}</value>
+  </data>
+  <data name="VersionUpNotNewVersion" xml:space="preserve">
+    <value>このバージョンが最新です。</value>
+  </data>
+  <data name="VersionUpRunException" xml:space="preserve">
+    <value>アップデータ起動中にエラーが発生しました。
+{0}</value>
+  </data>
+  <data name="WizardCompleteButton" xml:space="preserve">
+    <value>完了</value>
+  </data>
+  <data name="WizardFifthTitle" xml:space="preserve">
+    <value>新着受信時に再生するサウンドを設定してください。</value>
+  </data>
+  <data name="WizardForthTitle" xml:space="preserve">
+    <value>新着を受信したときの通知方法を指定してください。</value>
+  </data>
+  <data name="WizardNextButton" xml:space="preserve">
+    <value>次へ(&amp;N) &gt;</value>
+  </data>
+  <data name="WizardSecondTitle" xml:space="preserve">
+    <value>使用するアカウントを設定してください。</value>
+  </data>
+  <data name="WizardThirdTitle" xml:space="preserve">
+    <value>メールチェックをする間隔を指定してください。</value>
+  </data>
+  <data name="AccountListDisable" xml:space="preserve">
+    <value>このアカウントを使用しない(&amp;U)</value>
+  </data>
+  <data name="AccountListEnable" xml:space="preserve">
+    <value>このアカウントを使用する(&amp;U)</value>
+  </data>
+  <data name="SoftwareNameShort" xml:space="preserve">
+    <value>月光</value>
+  </data>
+  <data name="PopupAllCheckMenu" xml:space="preserve">
+    <value>すべてメールチェック(&amp;A)</value>
+  </data>
+</root>
